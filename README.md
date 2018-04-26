@@ -1,3 +1,5 @@
+[![PyPI](https://badge.fury.io/py/pyopcode.svg)](https://badge.fury.io/py/pyopcode) [![Anaconda](https://anaconda.org/conda-forge/pyopcode/badges/version.svg)](https://anaconda.org/conda-forge/pyopcode/)
+
 # pyopcode
 
 The one and only. To get started with development:
