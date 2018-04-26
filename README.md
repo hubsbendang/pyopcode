@@ -1,4 +1,4 @@
-[![PyPI](https://badge.fury.io/py/pyopcode.svg)](https://badge.fury.io/py/pyopcode) [![Anaconda](https://anaconda.org/conda-forge/pyopcode/badges/version.svg)](https://anaconda.org/conda-forge/pyopcode/)
+[![PyPI](https://badge.fury.io/py/pyopcode.svg)](https://badge.fury.io/py/pyopcode) [![Anaconda](https://anaconda.org/conda-forge/pyopcode/badges/version.svg)](https://anaconda.org/conda-forge/pyopcode/) [![Travis](https://travis-ci.org/ClinicalGraphics/pyopcode.svg?branch=master)](https://travis-ci.org/ClinicalGraphics/pyopcode/)
 
 # pyopcode
 
