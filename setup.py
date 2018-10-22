@@ -15,7 +15,8 @@ compile_args = []
 runtime_library_dirs = []
 libraries = []
 if is_win:
-    compile_args = ["/DICE_NO_DLL", "/DBAN_OPCODE_AUTOLINK"]
+    # see https://github.com/boostorg/python/issues/193 for /DBOOST_ALL_NO_LIB
+    compile_args = ["/DICE_NO_DLL", "/DBAN_OPCODE_AUTOLINK", "/DBOOST_ALL_NO_LIB"]
     libraries = ["boost_python36-vc141-mt-x64-1_67", "boost_numpy36-vc141-mt-x64-1_67"]
 else:
     runtime_library_dirs = ["$ORIGIN"]
