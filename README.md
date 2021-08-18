@@ -1,6 +1,6 @@
 # pyopcode
 
-Python bindings for the OPCODE collision detection library.
+Python bindings for the OPCODE collision detection library. Original OPCODE homepage can be found here: http://www.codercorner.com/Opcode.htm
 
 Note that the bindings provide access to only a small portion of the full library.
 Pull requests to expose a larger API surface area are welcome.
