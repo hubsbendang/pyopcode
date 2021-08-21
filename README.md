@@ -24,8 +24,8 @@ See the test suite for various usage examples.
 
 This class represents a triangle mesh and the constructor takes two arguments:
 
-* `vertices: ndarray float32 [n_vertices, 3])`
-* `triangles: ndarray int32 [n_triangles, 3])`
+* `vertices: ndarray float32 [n_vertices, 3]`
+* `triangles: ndarray int32 [n_triangles, 3]`
 
 The `vertices` array is expected to hold object space 3D coordinates
 and `triangles` indexes the `vertices` array.
@@ -71,7 +71,7 @@ And returns a single array:
 
 The `affine0` and `affine1` arrays are expected to hold 3D affine transformation
 matrices for each of the two mesh models that were passed to the constructor.
-These are applied to the models during the query collision.
+These are applied to the models during the collision query.
 
 The returned `pairs` array holds index pairs of triangles that collided.
 
