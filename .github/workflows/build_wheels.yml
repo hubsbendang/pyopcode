@@ -28,6 +28,7 @@ jobs:
           CIBW_ARCHS_LINUX: auto64
           CIBW_ARCHS_MACOS: auto64 arm64
           CIBW_ARCHS_WINDOWS: auto64
+          CIBW_BEFORE_TEST: pip install "numpy<2.0"
           CIBW_TEST_REQUIRES: pytest black
           CIBW_TEST_COMMAND:  >
             pytest {project}/tests &&
